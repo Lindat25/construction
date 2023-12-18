@@ -1,0 +1,14 @@
+
+    .hero-section {
+        padding-top: 100px;
+    }
+
+    @media (max-width: 768px) {
+        .hero-section {
+            padding-top: 50px;
+        }
+
+        .custom-hero-content {
+            text-align: center;
+        }
+    }
