@@ -6,7 +6,9 @@ export default defineConfig({
     laravel({
       input: ['resources/css/app.css', 'resources/js/app.js'],
       refresh: true,
-      output: './public/dist', // Specify the desired output directory
     }),
   ],
+  build: {
+    outDir: 'public/dist', // Specify the desired output directory
+  },
 });
