@@ -15,10 +15,10 @@
     nav {
         width: 100%;
         padding: 10px 0;
-        position: fixed; /* Set the navigation bar to a fixed position */
-        top: 0; /* Position the navigation bar at the top of the viewport */
-        background-color: white; /* Set the background color of the navigation bar */
-        z-index: 999; /* Set a high z-index value to ensure it appears above other content */
+        position: fixed;
+        top: 0;
+        background-color: white;
+        z-index: 999;
     }
 
     .container {
@@ -58,13 +58,29 @@
     }
 
     .action-btn .btn {
-    color: white;
-
-}
-
+        color: white;
+    }
 
     .content {
-        margin-top: 70px; /* Add a margin top to the content to prevent it from being overlapped by the fixed navigation bar */
+        margin-top: 70px;
+    }
+
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .right {
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .right a {
+            margin-right: 10px;
+        }
     }
     </style>
 </head>
@@ -78,6 +94,7 @@
                 <a href="{{ route('welcome') }}">HOME</a>
                 <a href="{{ route('about') }}">ABOUT </a>
                 <a href="{{ route('services') }}">SERVICES</a>
+                <a href="{{ route('casestudies') }}">CASE STUDIES</a>
                 <a href="{{ route('contact') }}">CONTACT</a>
                 <a href="{{ route('team') }}">TEAM</a>
             </div>

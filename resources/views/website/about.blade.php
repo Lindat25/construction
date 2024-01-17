@@ -66,11 +66,11 @@
 
 .action-btn .btn:hover {
     color: #9ACD32;
-    background-color: white;
+    //background-color: white;
 }
 
 .bg-light-gray {
-        background-color: #c6ced6d1;
+        background-color: #e5efd1;
     }
 
 <style>
@@ -95,8 +95,8 @@
 </style>
 
 <section class="hero-section pt-100" style="position: relative;">
-    <div class="background-img" style="background: url('{{ asset('images/smiling.jpg') }}') no-repeat center center / cover; position: relative; height:200px;">
-        <div class="image-overlay" style="background-color: rgba(0, 123, 255, 0.5); width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
+    <div class="background-img" style="background: url('{{ asset('images/smiling.jpg') }}') no-repeat center center / cover; position: relative;">
+        <div class="image-overlay" style="background-color: rgba(230, 240, 141, 0.5); width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
         <div class="container">
             <div class="custom-hero-content d-flex flex-column align-items-center justify-content-center">
                 <h1 class="text-white" style="padding-top: 66px; font-weight: 1000; position: relative; z-index: 1;">
@@ -112,23 +112,18 @@
     </div>
 </section>
 
-
-
-
 <section id="about" class="about-section about-style-three pt-100 pb-70 bg-light-gray">
+    <div style="padding-top: 50px;"></div>
+    <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="about-img-content">
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-6 col-6">
-                            <div class="about-image">
-                                <img src="/images/hat.jpg">
-                            </div>
-                        </div>
+                    <div class="about-image">
+                        <img src="/images/work3.jpg" class="img-fluid" alt="About Image">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6" >
+            <div class="col-lg-6">
                 <div class="about-content">
                     <h2 style="color: #9ACD32; font-size: 28px; font-weight: 1000; text-align: center; margin-bottom: 20px;">ABOUT US</h2>
                     <p class="lead-2">
@@ -145,12 +140,13 @@
             </div>
         </div>
     </div>
+    <div style="padding-bottom: 100px;"></div>
 </section>
 
 
 
-<section id="about" class="about-section about-style-three pt-100 pb-70 " style="margin-top: -95px;"> >
-    <div class="background-container" style="background-image: url('{{ asset('images/sky1.jpg') }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section id="about" class="about-section about-style-three pt-100 pb-70 " style="margin-top: -95px;">
+    <div class="background-container" style="background-image: url('{{ asset('images/Y11.jpg') }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
             <div class="row gap-y mt-5" style="padding-top: 100px;">
                 <div class="col-md-3 mr-md-auto" style="margin-left: 20px;">
                     <p class="lead-4 text-right">Passionate about<br> building <br> <i>' better future'</i>.</p>
@@ -227,85 +223,98 @@
 </div>
 
 <section id="about" class="about-section about-style-three pt-100 pb-70 bg-secondar">
-    <div class="row align-items-center">
-        <div class="col-lg-4">
-            <div class="about-img-content">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6 col-6">
-                        <div class="about-image">
-                            <img src="/images/hat.jpg">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img-content">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="about-image">
+                                <img src="/images/work.jpg" class="img-fluid" alt="About Image">
+                            </div>
                         </div>
-                        <div class="about-image">
-                            <img src="/images/hat.jpg">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="about-image">
+                                <img src="/images/work2.jpg" class="img-fluid" alt="About Image">
+                            </div>
                         </div>
                     </div>
-
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="about-image">
+                                <img src="/images/work3.jpg" class="img-fluid" alt="About Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="about-image">
+                                <img src="/images/work5.jpg" class="img-fluid" alt="About Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="about-image">
+                                <img src="/images/work6.jpg" class="img-fluid" alt="About Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="about-image">
+                                <img src="/images/WORK1.jpg" class="img-fluid" alt="About Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="about-image">
+                                <img src="/images/WORK.jpg" class="img-fluid" alt="About Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div class="about-image">
+                                <img src="/images/work7.jpg" class="img-fluid" alt="About Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content">
+                    <h2 style="padding-bottom: 50px; font-weight: 1000;">Values</h2>
+                    <h5>Technology Driven Culture</h5>
+                    <p>We continuously improve and offer relevant technology-driven products and services.</p>
+                    <hr>
+                    <div class="spacer"></div>
+                    <h5>Teamwork</h5>
+                    <p>We work together, across boundaries to meet the needs of our customers and to help our company win.</p>
+                    <hr>
+                    <div class="spacer"></div>
+                    <h5>Respect for people</h5>
+                    <p>We value our people, encourage their development and reward their performance.</p>
+                    <hr>
+                    <div class="spacer"></div>
+                    <h5>Good citizenship</h5>
+                    <p>We are good citizens in the communities in which we live and work.</p>
+                    <hr>
+                    <div class="spacer"></div>
+                    <h5>Safety</h5>
+                    <p>We observe and implement safety rules by and regulations in all our operations.</p>
+                    <hr>
+                    <div class="spacer"></div>
+                    <h5>A Will to Win</h5>
+                    <p>We exhibit a strong will to win in the marketplace and in every aspect of our business.</p>
+                    <hr>
+                    <div class="spacer"></div>
+                    <h5>Personal Accountability</h5>
+                    <p>We are personally accountable for delivering on our commitments.</p>
+                    <hr>
+                    <div class="spacer"></div>
+                    <h3>Corporate Social Responsibility (CSR)</h3>
+                    <p class="lead-2">We understand that we have a responsibility to our society and we have made CSR an integral part of our business culture. To underline our deep commitment to making a difference in people’s lives, we are guided by an existing policy and the company commits a substantial budgetary allocation each year to CSR initiatives. The company’s CSR efforts focus on the vulnerable groups, Health, Education, Environment, and Sports.</p>
+                    <hr>
+                    <div class="spacer"></div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-6" >
-            <div class="about-content">
-                <h2 style="padding-bottom: 50px; font-weight: 1000;">Values</h2>
-                <h5>Technology Driven Culture
-                </h5>
-                <p>We continuously improve and offer relevant technology driven products and services.
-                    </p>
-                <hr>
-                <div class="spacer"></div>
-                <h5>Teamwork</h5>
-                <p>We work together, across boundaries to meet the needs of our customers and to help our
-                    company win.
-                    </p>
-                <hr>
-                <div class="spacer"></div>
-
-                <h5>Respect for people</h5>
-                <p>We value our people, encourage their development and reward their performance.
-
-                    </p>
-                <hr>
-                <div class="spacer"></div>
-
-                <h5>Good citizenship</h5>
-                <p>We are good citizens in the communities in which we live and work.
-
-                    </p>
-                <hr>
-                <div class="spacer"></div>
-
-                <h5>Safety</h5>
-                <p>We observe and implement safety rules by and regulations in all our operations
-
-                    </p>
-                <hr>
-                <div class="spacer"></div>
-
-                <h5>A Will to Win</h5>
-                <p>We exhibit a strong will to win in the marketplace and in every aspect of our business.
-                    </p>
-                <hr>
-                <div class="spacer"></div>
-
-                <h5>Personal Accountability</h5>
-                <p>We are personally accountable for delivering on our commitments
-                    </p>
-                <hr>
-                <div class="spacer"></div>
-
-                <h3>Corporate Social Responsiblity (CSR)</h3>
-                <p class="lead-2">We understand that we have a responsibility to our society and we have made CSR an integral
-                    part of our business culture. To underline our deep commitment to making a difference in
-                    people’s lives, we are guided by an existing policy and the company commits a substantial
-                    budgetary allocation each year to CSR initiatives. The company’s CSR efforts focuses on the
-                    vulnerable groups, Health, Education, Environment and Sports
-                    </p>
-                <hr>
-                <div class="spacer"></div>
-
-              </div>
-            </div>
-        </div>
     </div>
-</div>
 </section>
 @endsection

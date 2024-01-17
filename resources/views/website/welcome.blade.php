@@ -23,6 +23,7 @@
 
     .text-container {
         text-align: left;
+        padding-left: 100px;
     }
 
     .custom-hero-content {
@@ -119,7 +120,7 @@
     }
 
     .color-secondary span {
-        color: #0000ff;
+        color: #557e03;
         font-weight: bolder; /* Replace with your desired color for the <span> element */
     }
 
@@ -141,14 +142,12 @@
 </style>
 
 <section class="hero-section pt-100" style="position: relative; height: 90vh;">
-    <div class="background-img" style="background: url('{{ asset('images/ce.jpg') }}') no-repeat center center / cover; position: relative;">
+    <div class="background-img" style="background: url('{{ asset('images/work6.jpg') }}') no-repeat center center / cover; position: relative;">
         <div class="container-fluid">
             <div class="text-container">
                 <div class="custom-hero-content">
-                    <h1 class="text-white font-weight-bold">
-                        TSHAMIE HOLDINGS
-                    </h1>
-                    <p class="custom-lead white-text">Transforming Visions into Reality</p>
+                    <h1 class="text-white font-weight-bold" style="font-size: 48px; text-transform: uppercase;">TSHAMIE HOLDINGS</h1>
+                    <p class="custom-lead white-text" style="font-size: 28px; letter-spacing: 2px;">Transforming Visions into Reality</p>
                     <div class="action-btn mt-4">
                         <a href="{{ route('services') }}" class="btn solid-btn hero">SERVICES</a>
                     </div>
@@ -160,7 +159,7 @@
 <div style="padding-bottom: 50px;"></div>
 
 <section id="image" class="section bg-gray">
-    <h2 style="color: #9ACD32; font-size: 28px; font-weight: bold; text-align: center; margin-bottom: 20px;">SERVICES OFFERED</h2>
+    <h2 style="color: #557e03; font-size: 28px; font-weight: bold; text-align: center; margin-bottom: 20px;">SERVICES OFFERED</h2>
     <div class="container">
 
         <p class="lead-2">"Experience excellence in construction with our comprehensive range of services.<br>
@@ -229,7 +228,7 @@
             <div class="col-lg-6">
                 <div class="image-content">
                     <div class="image" style="height:400px;">
-                        <img src="images/people.jpg" class="img-fluid" alt="peple">
+                        <img src="images/work2.jpg" class="img-fluid" alt="peple">
                     </div>
                 </div>
             </div>

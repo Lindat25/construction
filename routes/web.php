@@ -12,6 +12,8 @@ Route::get('/about', [PagesController::class, 'about'])->name('about');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/team', [PagesController::class, 'team'])->name('team');
 Route::get('/services', [PagesController::class, 'services'])->name('services');
+Route::get('/touch', [PagesController::class, 'touch'])->name('touch');
+Route::get('/casestudies', [PagesController::class, 'casestudies'])->name('casestudies');
 
 
 

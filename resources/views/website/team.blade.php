@@ -53,8 +53,8 @@
 }
 
 .action-btn .btn:hover {
-    color: green;
-    background-color: white;
+    color: #9ACD32;
+   // background-color: white;
 }
 
 .hero-section {
@@ -81,16 +81,27 @@
     </style>
 
 <section class="hero-section pt-100" style="position: relative;">
-    <div class="background-img" style="background: url('{{ asset('images/team.jpg') }}') no-repeat center center; background-size: cover; position: relative;">
-        <div class="image-overlay" style="background-color: rgba(0, 123, 255, 0.5); width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
+    <div class="background-img" style="background: url('{{ asset('images/smiling.jpg') }}') no-repeat center center / cover; position: relative; height:200px;">
+        <div class="image-overlay" style="background-color: rgba(230, 240, 141, 0.5); width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
         <div class="container">
-            <!-- Your content inside the container -->
+            <div class="custom-hero-content d-flex flex-column align-items-center justify-content-center">
+                <h1 class="text-white" style="padding-top: 66px; font-weight: 1000; position: relative; z-index: 1;">
+                   THE TEAM
+                </h1>
+
+                <div class="action-btn mt-4" style="position: relative; z-index: 1;">
+                    <a href="{{ route('welcome') }}" class="btn solid-btn hero" style="font-weight: bold; font-size: 20px;">Home</a>
+                    <a href="{{ route('team') }}" class="btn solid-btn hero" style="font-weight: bold; font-size: 20px;">team</a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
+
+
 <div class="team-section">
-    <h1 style="color: #007bff; text-align: center; padding-bottom:40px;">MEET THE TEAM</h1>
+    <h1 style="color: #9ACD32; text-align: center; padding-bottom:40px;">MEET THE TEAM</h1>
     <div class="container">
         <div class="row">
 
@@ -140,7 +151,7 @@
             @endphp
 
             @foreach($teamMembers as $teamMember)
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="team-member">
                     <img src="{{ $teamMember['picture'] }}" alt="{{ $teamMember['name'] }}" class="img-fluid">
                     <h4>{{ $teamMember['name'] }}</h4>

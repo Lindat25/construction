@@ -18,7 +18,7 @@ class PagesController extends Controller
        return view('website.contact');
    }
 
-   
+
    public function team(){
     return view('website.team');
 }
@@ -26,6 +26,14 @@ class PagesController extends Controller
 
 public function services(){
     return view('website.services');
+}
+
+public function touch(){
+    return view('website.touch');
+}
+
+public function casestudies(){
+    return view('website.casestudies');
 }
 
 
