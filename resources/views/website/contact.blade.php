@@ -1,6 +1,6 @@
 @extends('website.layouts.website')
 
-@section('body')
+@section('content')
 <style>
 
     .page-title-area {
@@ -141,6 +141,27 @@
     .contact-form button:hover {
         background-color: blue;
     }
+ <style>
+    .hero-section {
+
+}
+
+.background-img {
+    width: 100%;
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding-top: 50px;
+    }
+
+    .background-img {
+        height: 200px;
+
+    }
+}
+</style>
 
 
 

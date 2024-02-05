@@ -1,6 +1,6 @@
 @extends('website.layouts.website')
 
-@section('body')
+@section('content')
 
 <style>
 
@@ -12,18 +12,6 @@
 .background-img {
     width:1500px;
     height: 300px;
-}
-
-
-@media (max-width: 768px) {
-    .hero-section {
-        padding-top: 50px;
-    }
-
-    .background-img {
-        height: 200px;
-
-    }
 }
 
 
@@ -101,22 +89,28 @@
     color: #9ACD32;
     //background-color: white;
 }
-  /* Responsive styles */
 
-  @media (max-width: 768px) {
-        .hero-section {
-            padding-top: 50px;
-        }
+<style>
+    .hero-section {
 
-        .custom-hero-content {
-            text-align: center;
-        }
+}
+
+.background-img {
+    width: 100%;
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding-top: 50px;
     }
-    @media (max-width: 767px) {
-        .image {
-            padding-bottom: 75%; /* Adjust the aspect ratio for smaller screens */
-        }
+
+    .background-img {
+        height: 200px;
+
     }
+}
+</style>
 </style>
 
 

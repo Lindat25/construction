@@ -54,7 +54,7 @@
                             <span class="tag">
                                 <i class="fa fa-envelope"></i>
                             </span>
-                            <span>14 CARRICK RD, BORROWDALE <br> HARARE, ZIMBABWE</span>
+                            <span>14 Lorne Drive Mt Pleasant <br> HARARE, ZIMBABWE</span>
                         </li>
                         <li>
                             <span class="tag">
@@ -71,7 +71,7 @@
                                 <i class="fa fa-envelope"></i>
                             </span>
                             <span>
-                                <a href="mailto:info@tshamie.co.zw">tshamieholdings@gmail.com</a>
+                                <a href="mailto:info@tshamie.co.zw">TSHAMIEholdings@gmail.com</a>
                             </span>
                         </li>
                     </ul>

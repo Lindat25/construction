@@ -1,7 +1,7 @@
 
 @extends('website.layouts.website')
 
-@section('body')
+@section('content')
 
 <style>
     .card:hover {
@@ -40,17 +40,27 @@
 
 
 
-@media (max-width: 768px) {
-        .hero-section {
-            padding-top: 50px;
+    <style>
+            .hero-section {
+
         }
 
         .background-img {
-            height: 200px;
-
+            width: 100%;
+            height: 300px;
         }
-    }
 
+        @media (max-width: 768px) {
+            .hero-section {
+                padding-top: 50px;
+            }
+
+            .background-img {
+                height: 200px;
+
+            }
+        }
+    </style>
  </style>
 
 <section class="hero-section pt-100" style="position: relative;">
@@ -119,7 +129,7 @@
 
                 </h5>
             </div>
-            <img class="card-img-top" style="height: 270px;" src="images/renovation.jpg" alt="materials">
+            <img class="card-img-top" style="height: 270px;" src="images/w.jpg" alt="materials">
 
           </div>
         </div>
