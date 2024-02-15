@@ -186,11 +186,11 @@
 </style>
 
 <section class="hero-section" style="position: relative; height: 90vh;">
-    <div class="background-img" style="background: url('{{ asset('images/work6.jpg') }}') no-repeat center center / cover; position: relative;">
+    <div class="background-img" style="background: url('{{ asset('images/work5.jpg') }}') no-repeat center center / cover; position: relative;">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-8 text-center">
-                    <h1 class="text-white font-weight-bold" style="font-size: 48px; text-transform: uppercase;">TSHAMIE HOLDINGS</h1>
+                    <h1 class="text-white font-weight-bold" style="font-size: 70px; text-transform: uppercase; font-weight: 800;">TSHAMIE HOLDINGS</h1>
                     <p class="custom-lead white-text" style="font-size: 28px; letter-spacing: 2px;">Transforming Visions into Reality</p>
                     <div class="action-btn mt-4">
                         <a href="{{ route('services') }}" class="btn solid-btn hero">SERVICES</a>
