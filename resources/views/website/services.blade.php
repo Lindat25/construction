@@ -95,7 +95,7 @@
                     designs
                 </h5>
               </div>
-            <img class="card-img-top" style="height: 250px;" src="images/structuraldesigns.jpg" alt="materials">
+            <img class="card-img-top" style="height: 250px;" src="images/work3.jpg" alt="materials">
           </div>
         </div>
         <div class="col-6 col-lg-3">
@@ -105,7 +105,7 @@
                         Engineering surveys
                     </h5>
                   </div>
-              <img class="card-img-top" style="height: 270px;" src="images/survey.jpg" alt="materials">
+              <img class="card-img-top" style="height: 270px;" src="images/WORK.jpg" alt="materials">
             </div>
           </div>
 
@@ -118,7 +118,7 @@
 
                 </h5>
             </div>
-            <img class="card-img-top" style="height: 250px;" src="images/contract.jpg" alt="materials">
+            <img class="card-img-top" style="height: 250px;" src="images/work5.jpg" alt="materials">
           </div>
         </div>
         <div class="col-6 col-lg-3">
@@ -129,7 +129,7 @@
 
                 </h5>
             </div>
-            <img class="card-img-top" style="height: 270px;" src="images/w.jpg" alt="materials">
+            <img class="card-img-top" style="height: 270px;" src="images/WORK1.jpg" alt="materials">
 
           </div>
         </div>
@@ -147,7 +147,7 @@
 
                 </h5>
             </div>
-            <img class="card-img-top" style="height: 250px;" src="images/materials.jpg" alt="materials">
+            <img class="card-img-top" style="height: 250px;" src="images/work2.jpg" alt="materials">
           </div>
         </div>
         <div class="col-6 col-lg-3">
@@ -159,7 +159,7 @@
 
                 </h5>
             </div>
-            <img class="card-img-top" style="height: 270px;" src="images/lastone.jpg" alt="consruction">
+            <img class="card-img-top" style="height: 270px;" src="images/work4.jpg" alt="consruction">
           </div>
         </div>
         <div class="col-6 col-lg-3">
@@ -171,7 +171,7 @@
 
                 </h5>
             </div>
-            <img class="card-img-top" style="height: 250px;" src="images/architecture.jpg" alt="arcitecture">
+            <img class="card-img-top" style="height: 250px;" src="images/work3.jpg" alt="arcitecture">
           </div>
         </div>
         <div class="col-6 col-lg-3">
@@ -184,7 +184,7 @@
 
                 </h5>
             </div>
-            <img class="card-img-top" style="height: 250px;" src="images/road.jpg" alt=" Meeting">
+            <img class="card-img-top" style="height: 250px;" src="images/road1.jpg" alt=" Meeting">
 
           </div>
         </div>
@@ -203,7 +203,7 @@
 
                 </h5>
             </div>
-            <img class="card-img-top" style="height: 250px;" src="images/transport.jpg" alt="transport">
+            <img class="card-img-top" style="height: 250px;" src="images/work5.jpg" alt="transport">
           </div>
         </div>
         <div class="col-6 col-lg-3">
@@ -214,7 +214,7 @@
 
                 </h5>
             </div>
-            <img class="card-img-top" style="height: 250px; " src="images/design.jpg" alt="last">
+            <img class="card-img-top" style="height: 250px; " src="images/work3.jpg" alt="last">
           </div>
         </div>
       </div>
