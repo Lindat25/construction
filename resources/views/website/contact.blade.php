@@ -204,7 +204,7 @@
                                 <i class="fa fa-envelope" style="font-size: 50px; color: white; padding-right:20px;"></i>
                             </span>
                             <span class="contact-numbers">
-                                <a href="#" style="color: white; font-weight: bold;">tshamieholdings@gmail.com</a>
+                                <a href="#" style="color: white; font-weight: bold;">TSHAMIEholdings@gmail.com</a>
                             </span>
                         </li>
                     </ul>
@@ -237,7 +237,7 @@
                             <span class="tag">
                                 <i class="fa fa-envelope" style="font-size: 50px; color: white; padding-right:20px;"></i>
                             </span>
-                            <span class="text-white font-weight-bold">14 CARRICK RD, BORROWDALE <br> HARARE, ZIMBABWE</span>
+                            <span class="text-white font-weight-bold">14 Lorne Drive Mt Pleasant <br> HARARE, ZIMBABWE</span>
                         </li>
                     </ul>
                     <div class="card-overlay"></div>
