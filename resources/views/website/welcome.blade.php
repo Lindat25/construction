@@ -3,6 +3,35 @@
 @section('content')
 
 <style>
+
+.custom-hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-row {
+  width: 100%;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .card-body {
+    flex-grow: 1;
+  }
+
+.custom-col-md-8 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
     .hero-section {
         width: 100%;
     }
@@ -47,7 +76,7 @@
         font-weight: bold;
         text-decoration: none;
         text-align: center;
-        background-color: #9ACD32;
+        background-color: #151B54;
         color: white;
         border-radius: 50px;
         transition: background-color 0.3s ease;
@@ -55,7 +84,7 @@
 
     .btn:hover
     {
-        background-color: #3015b8;
+        background-color: #151B54;
     }
 
     .container
@@ -142,6 +171,18 @@
 
 
 
+    .hero-blue {
+        background-color: transparent;
+        color: #151B54;
+
+    }
+
+    .hero-blue:hover {
+        background-color: transparent;
+        color:  #9ACD32;
+    }
+
+
 
  @media (max-width: 767px)
  {
@@ -185,27 +226,29 @@
 
 </style>
 
-<section class="hero-section" style="position: relative; height: 90vh;">
-    <div class="background-img" style="background: url('{{ asset('images/work5.jpg') }}') no-repeat center center / cover; position: relative;">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-8 text-center">
-                    <h1 class="text-white font-weight-bold" style="font-size: 70px; text-transform: uppercase; font-weight: 800;">TSHAMIE HOLDINGS</h1>
-                    <p class="custom-lead white-text" style="font-size: 28px; letter-spacing: 2px;">Transforming Visions into Reality</p>
-                    <div class="action-btn mt-4">
-                        <a href="{{ route('services') }}" class="btn solid-btn hero">SERVICES</a>
-                    </div>
-                </div>
+
+<section class="hero-section pt-100" style="position: relative;">
+  <div class="background-img" style="background: url('{{ asset('images/smiling.jpg') }}') no-repeat center center / cover; position: relative; height:600px;">
+      <div class="image-overlay" style="background-color: #151B54; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0.30;"></div>
+      <div class="container">
+        <div class="custom-row justify-content-center align-items-center" style="height: 100%;">
+          <div class="custom-col-md-8 text-center">
+            <h1 class="custom-font-weight-bold" style="font-size: 70px; text-transform: uppercase; font-weight: 800; color: white;">TSHAMIE HOLDINGS</h1>
+            <p class="custom-lead" style="font-size: 28px; letter-spacing: 2px; color: #9ACD32; font-weight: bold;">Transforming Visions into Reality</p>
+            <div class="action-btn mt-4">
+              <a href="{{ route('services') }}" class="btn solid-btn hero"> SERVICES</a>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
+  </div>
 </section>
 
 
 
-
   <section id="image" class="section bg-gray">
-    <h2 style="color: #557e03; font-size: 28px; font-weight: bold; text-align: center; margin-bottom: 20px;">SERVICES OFFERED
+    <div style="padding-top: 50px;"></div>
+    <h2 style="color: #557e03; font-size: 38px; font-weight: bold; text-align: center; margin-bottom: 20px;">SERVICES OFFERED
     </h2>
     <div class="container">
       <p class="lead-2">"Experience excellence in construction with our comprehensive range of services.<br>
@@ -218,43 +261,64 @@
       </div>
         <div class="row gap-y">
             <div class="col-12 col-sm-6 col-lg-4">
-            <div class="card">
+              <div class="card" style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                 <div class="card-body">
-                <h5 class="card-title" style="font-weight:bold;">
+                  <span class="icon" style="display: flex; justify-content: center; align-items: center;">
+                    <i class="fas fa-wrench" style="font-size: 70px; color: #9ACD32; padding-bottom:20px;"></i>
+                  </span>
+                  <h5 class="card-title" style="font-weight:bold;">
                     Renovation and maintenance
-                </h5>
+                  </h5>
+                  <p class="card-text">
+                    Our renovation and maintenance services are designed to transform your space into something new and refreshing. Whether you need to upgrade your existing property or bring new life to outdated features, our team of skilled professionals is here to help. From minor repairs to complete renovations, we offer comprehensive solutions to meet your specific needs. We are committed to delivering high-quality workmanship, using top-notch materials to ensure long-lasting results. Trust us to enhance the functionality, aesthetics, and value of your property through our renovation and maintenance services.
+                  </p>
                 </div>
-                <a href="services" class="image-link">
-                <img class="card-img-top" style="height: 465px;" src="images/w.jpg" alt="materials">
-                </a>
-            </div>
+              </div>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-4">
-            <div class="card">
+              <div class="card" style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                 <div class="card-body">
-                <h5 class="card-title" style="font-weight:bold;">
+                  <span class="icon" style="display: flex; justify-content: center; align-items: center;">
+                    <i class="fas fa-truck" style="font-size: 70px; color: #9ACD32; padding-bottom:20px;"></i>
+                  </span>
+                  <h5 class="card-title" style="font-weight:bold;">
                     Transport and Logistics
-                </h5>
+                  </h5>
+                  <p class="card-text">
+                    We specialize in the efficient movement of construction materials, equipment, and personnel
+                    to and from job sites. Our experienced team ensures timely and secure transportation,
+                     utilizing a variety of modes such as trucks, cranes, and specialized vehicles.
+                      With meticulous planning and execution, we optimize logistics to streamline
+                      operations, minimize costs, and meet project timelines. Trust us to handle your transport
+                       and logistics needs, enabling seamless construction processes and successful project completion.
+                  </p>
                 </div>
-                <a href="services" class="image-link">
-                <img class="card-img-top" src="images/transport.jpg" alt="materials">
-                </a>
-            </div>
+              </div>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-4">
-            <div class="card">
+              <div class="card" style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                 <div class="card-body">
-                <h5 class="card-title" style="font-weight:bold;">
+                  <span class="icon" style="display: flex; justify-content: center; align-items: center;">
+                    <i class="fas fa-building" style="font-size: 70px; color: #9ACD32; padding-bottom:20px;"></i>
+                  </span>
+                  <h5 class="card-title" style="font-weight:bold;">
                     Building contraction
-                </h5>
+                  </h5>
+                  <p class="card-text">
+                    We specialize in delivering high-quality construction projects tailored to our clients' needs.
+                     From residential buildings to commercial properties, we have the expertise and experience to
+                      bring your vision to life. Our team of skilled professionals, including architects, engineers, and
+                      construction workers, work collaboratively to ensure every aspect of the project is meticulously planned
+                      and executed. With a focus on attention to detail, superior craftsmanship, and adherence to safety standards,
+                       we create durable and aesthetically pleasing structures. Trust us to handle your building and construction needs,
+                        delivering exceptional results that exceed your expectations.
+                  </p>
                 </div>
-                <a href="services" class="image-link">
-                <img class="card-img-top" src="images/lastone.jpg" alt="materials">
-                </a>
+              </div>
             </div>
-            </div>
+
         </div>
       <div style="padding-bottom: 50px;"></div>
 

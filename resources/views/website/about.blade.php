@@ -70,8 +70,34 @@
 }
 
 .bg-light-gray {
-        background-color: #e5efd1;
+        background-color: #F8F8FF;
     }
+
+
+    .custom-image {
+    width: 350px;
+    height: 250px;
+}
+
+.custom-overlay {
+    position: absolute;
+    top: 0;
+    opacity: 0.30;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 27, 84, 0.8);
+}
+
+
+.customm-overlay {
+    position: absolute;
+    top: 0;
+    opacity: 0.30;
+    left: 0;
+    height: 400px;
+    background-color: rgba(21, 27, 84, 0.8);
+}
 
 <style>
     .hero-section {
@@ -96,7 +122,7 @@
 
 <section class="hero-section pt-100" style="position: relative;">
     <div class="background-img" style="background: url('{{ asset('images/smiling.jpg') }}') no-repeat center center / cover; position: relative;">
-        <div class="image-overlay" style="background-color: rgba(230, 240, 141, 0.5); width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
+        <div class="image-overlay" style="background-color: #151B54; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0.40;"></div>
         <div class="container">
             <div class="custom-hero-content d-flex flex-column align-items-center justify-content-center">
                 <h1 class="text-white" style="padding-top: 66px; font-weight: 1000; position: relative; z-index: 1;">
@@ -112,7 +138,8 @@
     </div>
 </section>
 
-<section id="about" class="about-section about-style-three pt-100 pb-70 bg-light-gray">
+<section id="about" class="about-section about-style-three pt-100 pb-70 bg-light-gray position-relative">
+    <div class="custom-overlay"></div>
     <div style="padding-top: 50px;"></div>
     <div class="container">
         <div class="row align-items-center">
@@ -136,6 +163,60 @@
                         level of professionalism, integrity, honesty, and fairness in our relationships with our suppliers,
                         subcontractors, professional associates, and clients.
                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="padding-bottom: 100px;"></div>
+</section>
+
+
+<section id="about" class="about-section about-style-three pt-100 pb-70 ">
+    <div style="padding-bottom: 40px;"></div>
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-6 order-lg-2 order-1">
+                <div class="about-content">
+                    <h2 style = "font-weight: bold; font-size:40px; padding-bottom: 20px">Our Values at <span style = "color: #9ACD32 ">Tshamie Holdings</span></h2>
+                    <p><b>Teamwork:</b>We work together, across boundaries to meet the needs of our customers and to help our
+                        company win</p>
+                    <p><b>Respect for people:</b> We value our people, encourage their development and reward their performance.</p>
+                    <p><b>A Will to Win:</b> We exhibit a strong will to win in the marketplace and in every aspect of our business. </p>
+                    <p><b>Personal Accountability:</b> We are personally accountable for delivering on our commitments.</p>
+                    <p><b>Corporate Social Responsiblity (CSR):</b> We understand that we have a responsibility to our society and we have made CSR an integral
+                        part of our business culture. To underline our deep commitment to making a difference in
+                        people’s lives, we are guided by an existing policy and the company commits a substantial
+                        budgetary allocation each year to CSR initiatives. The company’s CSR efforts focuses on the
+                        vulnerable groups, Health, Education, Environment and Sports
+                        .</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 order-lg-1 order-2">
+                <div class="about-img-content position-relative">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-6">
+                            <div class="about-image">
+                                <div class="custom-overlay"></div>
+                                <img src="/images/WORK7.jpg" class="img-fluid custom-image" alt="About Image">
+                            </div>
+                            <div class="about-image">
+                                <div class="custom-overlay"></div>
+                                <img src="/images/work5.jpg" class="img-fluid custom-image" alt="About Image">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-6">
+                            <div class="about-image">
+                                <div class="custom-overlay"></div>
+                                <img src="/images/work3.jpg" class="img-fluid custom-image" alt="About Image">
+                            </div>
+                            <div class="about-image">
+                                <div class="custom-overlay"></div>
+                                <img src="/images/work6.jpg" class="img-fluid custom-image" alt="About Image">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -222,7 +303,8 @@
 
 </div>
 
-<section id="about" class="about-section about-style-three pt-100 pb-70 bg-secondar">
+
+<!--<section id="about" class="about-section about-style-three pt-100 pb-70 bg-secondar">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -316,5 +398,6 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
+
 @endsection

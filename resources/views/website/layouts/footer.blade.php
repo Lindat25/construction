@@ -88,7 +88,7 @@
 <style>
 .footer-area {
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #F8F8FF;
     padding: 60px 0;
 }
 

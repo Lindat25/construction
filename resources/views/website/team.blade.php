@@ -82,7 +82,7 @@
 
 <section class="hero-section pt-100" style="position: relative;">
     <div class="background-img" style="background: url('{{ asset('images/smiling.jpg') }}') no-repeat center center / cover; position: relative; height:200px;">
-        <div class="image-overlay" style="background-color: rgba(230, 240, 141, 0.5); width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
+        <div class="image-overlay" style="background-color: #151B54; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0.40;"></div>
         <div class="container">
             <div class="custom-hero-content d-flex flex-column align-items-center justify-content-center">
                 <h1 class="text-white" style="padding-top: 66px; font-weight: 1000; position: relative; z-index: 1;">
