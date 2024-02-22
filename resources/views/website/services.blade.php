@@ -1,6 +1,5 @@
 
 
-
 @extends('website.layouts.website')
 
 @section('content')
@@ -88,7 +87,7 @@
  </style>
 
 
- <header class="header-area header-three">
+ <!--<header class="header-area header-three">
   <div class="top-header-area">
       <div class="container-fluid">
           <div class="row align-items-center">
@@ -130,7 +129,7 @@
           </div>
       </div>
   </div>
-</header>
+</header>-->
 
 <section class="hero-section pt-100" style="position: relative;">
     <div class="background-img" style="background: url('{{ asset('images/smiling.jpg') }}') no-repeat center center / cover; position: relative; height:200px;">

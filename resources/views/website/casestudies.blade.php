@@ -5,9 +5,7 @@
 <style>
 
 
-.hero-section {
 
-}
 
 .background-img {
     width:1500px;
@@ -115,7 +113,7 @@
 
 
 
-<section class="hero-section pt-100" style="position: relative;">
+<section class="hero-section pt-100">
     <div class="background-img" style="background: url('{{ asset('images/smiling.jpg') }}') no-repeat center center / cover; position: relative; height:200px;">
         <div class="image-overlay" style="background-color: #151B54; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0.40;"></div>
         <div class="container">

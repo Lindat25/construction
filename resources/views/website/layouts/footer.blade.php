@@ -1,7 +1,7 @@
 <footer class="footer-area pt-100 pb-70">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-5 col-sm-6 col-12">
+            <div class="col-lg-5 col-md-5 col-sm-6 col-12 footer-widget-margin">
                 <div class="footer-widget">
                     <div class="navbar-brand">
                         <a href="{{ route('welcome') }}"><img src="{{ asset('images/logo.png') }}" alt="Company Logo" class="company-logo"></a>
@@ -46,7 +46,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-5 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-5 col-sm-6 col-12">
                 <div class="footer-widget">
                     <h5>Contacts</h5>
                     <ul class="contact-info">
@@ -91,6 +91,8 @@
     background-color: #F8F8FF;
     padding: 60px 0;
 }
+
+
 
 ul.footer-links,
 ul.contact-info {

@@ -12,13 +12,49 @@
         padding: 0;
     }
 
-    nav {
-        width: 100%;
-        padding: 10px 0;
-        position: fixed;
-        top: 0;
+    .header-section {
+        width: 97%;
+        background-color: #151B54;
+        color: white;
+    }
+
+    .header-area {
+        padding: 20px 0;
+    }
+
+    .top-header-area {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .socials-link a {
+        color: white;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info p {
+        margin: 0;
+        color: aliceblue;
+    }
+
+    .contact-info a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-container {
+        width: 99%;
         background-color: white;
-        z-index: 999;
+        padding: 10px 0;
     }
 
     .container {
@@ -28,11 +64,6 @@
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 20px;
-    }
-
-    .logo-container {
-        display: flex;
-        align-items: center;
     }
 
     .company-logo {
@@ -57,12 +88,8 @@
         color: #9ACD32;
     }
 
-    .action-btn .btn {
-        color: white;
-    }
-
     .content {
-        margin-top: 70px;
+        margin-top: 5px;
     }
 
     /* Responsive styles */
@@ -87,14 +114,58 @@
 
 
 <body>
-    <nav>
-        <div class="container">
-            <div class="logo-container">
-                <a href="{{ route('welcome') }}"><img src="{{ asset('images/logo.png') }}" alt="Company Logo" class="company-logo"></a>
+
+    <div class="header-section">
+        <header class="header-area header-three">
+            <div class="top-header-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-12">
+                            <div class="socials-link">
+                                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-12">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 col-sm-4">
+                                    <div class="contact-info">
+                                        <p>Call Us:</p>
+                                        <a href="tel:+263242740160">0779044369</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-4">
+                                    <div class="contact-info">
+                                        <p>Mail Us:</p>
+                                        <a href="TSHAMIEholdings@gmail.com">TSHAMIEholdings@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-4">
+                                    <div class="contact-info">
+                                        <p>Open Hours:</p>
+                                        <a href="#">Mon-Fri: 8:00 am – 5 pm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="right">
-                <a href="{{ route('welcome') }}">HOME</a>
-                <a href="{{ route('about') }}">ABOUT </a>
+          </header>
+    </div>
+
+
+    <nav>
+        <div class="nav-container">
+            <nav>
+                <div class="container">
+                    <div class="logo-container">
+                        <a href="{{ route('welcome') }}"><img src="{{ asset('images/logo.png') }}" alt="Company Logo" class="company-logo"></a>
+                    </div>
+                    <div class="right">
+                        <a href="{{ route('welcome') }}">HOME</a>
+                        <a href="{{ route('about') }}">ABOUT </a>
                 <a href="{{ route('services') }}">SERVICES</a>
                 <a href="{{ route('casestudies') }}">CASE STUDIES</a>
                 <a href="{{ route('contact') }}">CONTACT</a>
