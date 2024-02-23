@@ -104,43 +104,45 @@
         margin-bottom: 20px;
     }
 
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
 
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
 
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
+.contact-form textarea {
+    resize: vertical;
+}
 
-    .contact-form {
-        max-width: 400px;
-        margin: 0 auto;
-    }
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #151B54;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
 
-    .contact-form label {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    .contact-form input,
-    .contact-form textarea {
-        width: 500px;
-        padding: 10px;
-        margin-bottom: 20px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-
-    .contact-form button {
-        display: block;
-        width: 100px;
-        padding: 10px;
-        background-color:  #9ACD32;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-
-    .contact-form button:hover {
-        background-color: blue;
-    }
+.contact-form button:hover {
+    background-color: #7cb342;
+}
  <style>
     .hero-section {
 
@@ -197,6 +199,7 @@
             <div class="col-lg-6">
                 <!-- Card 1 -->
                 <div class="card border p-5 mb-4" style="background-image: url('images/p5.jpg'); background-size: cover;">
+                    <div class="image-overlay" style="background-color: #151B54; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0.40;"></div>
                     <h5 class="mb-4 text-white font-weight-bold">Mail Us</h5>
                     <ul class="contact-list">
                         <li>
@@ -213,6 +216,7 @@
 
                 <!-- Card 2 -->
                 <div class="card border p-5 mb-4" style="background-image: url('images/copy.jpg'); background-size: cover;">
+                    <div class="image-overlay" style="background-color: #151B54; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0.40;"></div>
                     <h5 class="mb-4 text-white font-weight-bold">Call Us</h5>
                     <ul class="contact-list">
                         <li>
@@ -231,6 +235,7 @@
 
                 <!-- Card 3 -->
                 <div class="card border p-5" style="background-image: url('images/p6.jpg'); background-size: cover;">
+                    <div class="image-overlay" style="background-color: #151B54; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0.40;"></div>
                     <h5 class="mb-4 text-white font-weight-bold">Address</h5>
                     <ul class="contact-list">
                         <li>
@@ -259,7 +264,7 @@
                         <label for="message">Your Message:</label>
                         <textarea id="message" name="message" rows="9" required></textarea>
 
-                         <button type="submit">Submit</button>
+                        <button type="submit">Submit</button>
                     </form>
                 </div>
             </div>

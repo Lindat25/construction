@@ -84,7 +84,7 @@
 
     .btn:hover
     {
-        background-color: #151B54;
+        background-color: #7cb342;
     }
 
     .container
@@ -139,7 +139,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #7cb342;
         z-index: 1;
         opacity: 0;
         transition: opacity 0.3s ease;

@@ -147,6 +147,7 @@
                 <div class="about-img-content">
                     <div class="about-image">
                         <img src="/images/work3.jpg" class="img-fluid" alt="About Image">
+                        <div class="image-overlay" style="background-color: #151B54; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0.40;"></div>
                     </div>
                 </div>
             </div>

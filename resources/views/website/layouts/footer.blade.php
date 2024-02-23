@@ -17,9 +17,6 @@
                         <a href="#" target="_blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://www.youtube.com/channel/UCHrdRBKWTIXz8QldcmDptkQ" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -28,20 +25,20 @@
                     <h5>Quick Links</h5>
                     <ul class="footer-links">
                         <li>
-                            <i class="flaticon-play-button"></i>
-                            <a href="https://www.tensor.co.zw/about">ABOUT US</a>
+                            <i class="fas fa-info-circle blue-icon"></i>
+                            <a href="{{ route('about') }}">ABOUT US</a>
                         </li>
                         <li>
-                            <i class="flaticon-play-button"></i>
-                            <a href="https://www.tensor.co.zw/sustainability">SERVICES</a>
+                            <i class="fas fa-cogs blue-icon"></i>
+                            <a href="{{ route('services') }}">SERVICES</a>
                         </li>
                         <li>
-                            <i class="flaticon-play-button"></i>
-                            <a href="#">CONTACT US</a>
+                            <i class="fas fa-envelope blue-icon"></i>
+                            <a href="{{ route('contact') }}">CONTACT US</a>
                         </li>
                         <li>
-                            <i class="flaticon-play-button"></i>
-                            <a href="https://www.tensor.co.zw/projects">TEAM</a>
+                            <i class="fas fa-users blue-icon"></i>
+                            <a href="{{ route('team') }}">TEAM</a>
                         </li>
                     </ul>
                 </div>
@@ -86,9 +83,18 @@
 
 
 <style>
-.footer-area {
+
+.blue-icon {
+        color: #9ACD32;
+    }
+
+
+
+    .footer-area {
     width: 100%;
-    background-color: #F8F8FF;
+    background-image: url('images/white1.jpg');
+    background-size: cover;
+    background-position: center;
     padding: 60px 0;
 }
 
@@ -159,7 +165,7 @@ ul.contact-info li .tag {
 }
 
 .social-link a:hover i {
-    color: #00f;
+    color: #151B54;
 }
 
 /* Responsive Styles */
